@@ -1,0 +1,132 @@
+*{
+  font-size: 16px;
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+  padding: 0;
+} 
+.cos{
+  /* habilitar en mode FLEX-BOX */
+  display: flex;
+  flex-direction: column;
+}
+.navegador{
+  background: #111111;
+  padding: 0.2rem;
+}
+ul{
+  /* habilitar en mode FLEX-BOX */
+  display:flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.navegator{
+  justify-content: flex-end;
+  color: #dddddd;
+  text-decoration: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  text-decoration: none;
+}
+.cercador{
+  /* habilitar en mode FLEX-BOX */
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  background: #999999;
+}
+input{
+  margin-right: 0.2rem;
+}
+.text{
+  width: 16rem;
+}
+.fila{
+  /* habilitar en mode FLEX-BOX */
+  display: flex;
+  justify-content: center;
+}
+.book{
+  /* habilitar en mode FLEX-BOX */ 
+  display: flex;
+  border: 0.1rem solid navy;
+  width: 12rem;
+  height: 12rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+footer{
+  /* habilitar en mode FLEX-BOX */
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  background: #dddddd;
+}
+.pie{
+  justify-content: center;
+}
+.logo{
+  text-align: center;
+}
+.xarxes{
+  padding-top: 1rem;
+  text-align: center;
+}
+p{
+  color: white;
+}
+#fons2{
+  background: #999999;
+  padding: 4rem;
+}
+#logo2{
+  width:3rem;
+  height:2rem;
+}
+#icon{
+  width: 2rem;
+  height: 2rem;
+}
+/* media query per pantalles inferiors a 1020px */
+@media only screen and (min-width:868px) and (max-width: 1020px) {
+  .book{
+    width: 8rem;
+    height: 8rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+/* media query per pantalles inferiors a 868 px */
+@media only screen and (min-width:690px) and (max-width: 867px) {
+
+  .book{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .text{
+    width: 10rem;
+  }
+  input, select{
+    font-size: 13px;
+  }
+}
+/* media query per pantalles inferiors a 650 px */
+@media only screen and (min-width: 470px) and (max-width: 689px) {
+  .book{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  .text{
+    width: 8rem;  
+  }
+  input, select{
+    font-size: 10px;
+  }
+}
